@@ -21,7 +21,7 @@ body
     padding: px 0px 0px 0px;
 } 
 
-.theme > .row > .playlistmenu > .col-sm-3 > h4:hover,h3:hover
+.theme > .row > .container .playlistmenu > .col-sm-3 > h4.text-center:hover,h3.text-center:hover
 {
 border: 1px solid black;
 border-radius: 20px;
@@ -33,7 +33,7 @@ transition: all .2s
 
 .list-theme {
     background-color: black;
-    overflow-y: scroll;
+   
 }
 
 .list-theme > .row > .container > .col-sm-2, .col-sm-8, .col-sm-3
@@ -41,7 +41,27 @@ transition: all .2s
 color: white;
 }
 
-
-.list-theme > .row {
+.br-10 {
+    border: 1px solid white;
 }
 
+.playlist > .container > .row > img {
+    width: 200px;
+    height: 200px;
+}
+
+.ranger {
+    opacity: 0.5;;
+}
+
+.container > .pad-25 {
+    margin-top: 50px;
+}
+
+.playlist.theme
+{
+    z-index: 999;
+    position: sticky;
+    top: 100px;
+    margin: 0;
+}
