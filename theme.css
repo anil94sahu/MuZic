@@ -65,3 +65,18 @@ color: white;
     top: 100px;
     margin: 0;
 }
+
+.playlist.theme{
+   
+    bottom: 0;
+    height: 250px;
+    width: 100%;
+
+}
+
+
+.list-theme {
+    
+    height: 500px;
+   
+}
