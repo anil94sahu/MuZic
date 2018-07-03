@@ -1,0 +1,31 @@
+{
+  "name": "muzic",
+  "version": "1.0.0",
+  "description": "A music application",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anil94sahu/MuZic.git"
+  },
+  "keywords": [
+    "music",
+    "muzic"
+  ],
+  "author": "Anil Sahu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anil94sahu/MuZic/issues"
+  },
+  "homepage": "https://github.com/anil94sahu/MuZic#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
