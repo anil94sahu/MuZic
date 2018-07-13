@@ -4,7 +4,8 @@
   "description": "A music application",
   "main": "server.js",
   "scripts": {
-    "test": "npm start"
+    "test": "npm start",
+    "run" : "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -23,9 +24,12 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "mongodb": "^3.1.0"
+    "mongodb": "^3.1.0",
+    "mongoose": "^5.2.1",
+    "cors": "2.8.1"
   },
   "devDependencies": {
+    "@angular/cli": "^6.0.8",
     "nodemon": "^1.17.5"
   }
 }
